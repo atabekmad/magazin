@@ -3,6 +3,7 @@
 ###  Signup Page:	 
 * Passwords aren't validated. User is able to enter almost anything including whitespaces and non-latin symbols.
 * Whitespace characters don't get stripped off in the EmailField of Signup and Login pages.
+* Feature/Bug - only 1 account is allowed to be registered.
 
 ###  Login Page:
 * Same as with Signup page. No password validation.
