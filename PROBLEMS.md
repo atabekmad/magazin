@@ -5,7 +5,7 @@
 	   and non-latin symbols.
 	 * Whitespace characters don't get stripped off in the EmailField of Signup and Login pages.
 ##  Login Page:
-  	  	
+    	 * Same as with Signup page. No password validation.  	  	
 ##  Search Page:
 	 * Ordered items can be duplicated in Cart if they are ordered more that one time. 
 	   In this case it's better to represent each item in the Cart followed by number of purchases.
