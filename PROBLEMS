@@ -9,4 +9,3 @@ Problems in Application:
 	 * Ordered items can be duplicated in Cart if they are ordered more that one time. In this case it's better to represent each item in the Cart followed by number of purchases.
    	 For example, Item1(1), Item2(5), Item3(2) and so on.
 	 * Make DateTo less that DateFrom
-	    
