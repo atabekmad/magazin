@@ -7,7 +7,7 @@ Selenium tests for online shop website
 
 ## Quickstart
 
-Assuming git, java and maven are installed and set to path:
+Assuming git, java and maven are properly installed:
 
 ```bash
 $ git clone https://github.com/atabekmad/magazin.git
