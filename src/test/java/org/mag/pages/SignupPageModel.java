@@ -1,11 +1,11 @@
 package org.mag.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.mag.pages.PageUtils.*;
 
 
@@ -28,7 +28,9 @@ public class SignupPageModel
     public SignupPageModel()
     {
 	driver.get(url);
-	driver.findElement(By.xpath("//a[contains(@href, '#/signup')]")).click(); // get us to Signup Page
+	WebElement linkToSignupPage = (new WebDriverWait(driver, 10))
+	    .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(@href, '#/signup')]")));
+	linkToSignupPage.click(); // get us to Signup Page
 	PageFactory.initElements(driver,this);
     }
 

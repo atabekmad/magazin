@@ -5,8 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.mag.pages.SignupPageModel;
 import org.mag.pages.LoginPageModel;
-import com.mifmif.common.regex.*;
-import java.util.concurrent.TimeUnit;
+import com.mifmif.common.regex.Generex;
 import static org.junit.Assert.fail;
 
 

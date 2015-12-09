@@ -1,20 +1,19 @@
 package org.mag.pages;
 
-import java.util.*;
+import java.util.Map;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Map.Entry;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.mag.pages.SearchPageProduct;
-import static org.junit.Assert.fail;
 import static org.mag.pages.PageUtils.*;
+import org.mag.pages.SearchPageProduct;
 
 
 public class SearchPageModel 

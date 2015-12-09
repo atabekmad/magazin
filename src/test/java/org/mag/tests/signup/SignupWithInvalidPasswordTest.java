@@ -14,9 +14,8 @@ public class SignupWithInvalidPasswordTest extends BaseTest
     @Test // we expect an error in this Test
     public void Test()
     {
-	// to do here
-	String invalidPassword = getStringFromRegex("( ){1}");
-
+	String invalidPassword = getStringFromRegex("[а-я !@#$%^&*()]{8}");
+	
 	signupPage = new SignupPageModel();
 	typeInto(signupPage.emailField, "atabekm21@gmail.com");  
 	typeInto(signupPage.passwordField, invalidPassword);

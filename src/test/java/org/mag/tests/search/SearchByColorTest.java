@@ -1,10 +1,6 @@
 package org.mag.tests.search;
 
-
-import java.util.Random;
 import org.junit.Test;
-import org.junit.Ignore;
-import org.openqa.selenium.support.ui.Select;
 import org.mag.tests.BaseTest;
 import org.mag.pages.SearchPageModel;
 import static org.junit.Assert.fail;

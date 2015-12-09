@@ -2,7 +2,6 @@ package org.mag.tests;
 
 import org.junit.Before;
 import org.junit.After;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import java.util.concurrent.TimeUnit;

@@ -1,6 +1,5 @@
 package org.mag.tests.login;
 
-import org.junit.Ignore;
 import org.junit.Test;
 import org.mag.tests.BaseTest;
 import org.mag.pages.LoginPageModel;

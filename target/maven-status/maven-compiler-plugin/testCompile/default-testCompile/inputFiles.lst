@@ -1,0 +1,15 @@
+/home/jon/Code/java/magazin/src/test/java/org/mag/pages/PageUtils.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/search/AddingProductsToCartTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/search/ViewContentOfTheCartTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/signup/SignupWithInvalidPasswordTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/pages/LoginPageModel.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/BaseTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/pages/SignupPageModel.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/search/SearchByColorTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/pages/SearchPageProduct.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/login/LoginWithRegisteredAccountTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/signup/SignupWithValidTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/pages/SearchPageModel.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/search/LogOutTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/login/LoginWithWrongCredentialsTest.java
+/home/jon/Code/java/magazin/src/test/java/org/mag/tests/signup/SignupWithInvalidEmailTest.java
