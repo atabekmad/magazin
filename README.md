@@ -1,4 +1,4 @@
-# magazin
+# Magazin
 Selenium tests for online shop website
 
 ## Prerequisites
