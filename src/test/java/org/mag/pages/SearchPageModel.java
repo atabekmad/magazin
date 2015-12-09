@@ -58,7 +58,7 @@ public class SearchPageModel
 	try {    
 	    // Instead of sleep we could wait explicitly for particular element to appear but
 	    // products on page may vary (html) and we don't know what exact element to wait for 
-	    TimeUnit.MILLISECONDS.sleep(500);  
+	    TimeUnit.MILLISECONDS.sleep(1000);  
 	} catch(InterruptedException e) {
 	    e.toString();
 	}
