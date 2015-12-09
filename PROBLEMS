@@ -1,4 +1,4 @@
-Problems in Application:
+List of Problems in Application:
 
   Signup Page:	 
 	 * Passwords aren't validated. User is able to enter almost anything including whitespaces and non-latin symbols.
