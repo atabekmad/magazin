@@ -24,14 +24,29 @@ public class SearchPageModel
     private List<WebElement> productBlockContainers;
     private Map<String, SearchPageProduct> productsMap;
 
-    @FindBy(name="colors")
-    public WebElement colorDropDown;
-
     @FindBy(linkText="Log out")
     public WebElement logOutButton;
 
     @FindBy(partialLinkText="Cart:")
     public WebElement viewCart;
+
+    @FindBy(id="date-from")
+    public WebElement dateFrom;
+
+    @FindBy(id="date-to")
+    public WebElement dateTo;
+
+    @FindBy(xpath="//input[@type='checkbox']")
+    public WebElement inStock;
+
+    @FindBy(xpath="xpath=(//input[@type='text'])[3]")
+    public WebElement minPrice;
+
+    @FindBy(xpath="xpath=(//input[@type='text'])[4]")
+    public WebElement maxPrice;
+
+    @FindBy(name="colors")
+    public WebElement colorDropDown;
 
     
     public SearchPageModel(String email, String password) 
