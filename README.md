@@ -3,7 +3,7 @@ Selenium tests for online shop website
 
 ## Contents
 
-* org.mag.pages - Webpage object models. Website which is being tested here has 3 pages in total. So there are 3 page models defined in this package.
+* *org.mag.pages* - Webpage object models. Website which is being tested here has 3 pages in total. So there are 3 page models defined in this package.
 
 * org.mag.tests - Here are the actual test files. 
 
