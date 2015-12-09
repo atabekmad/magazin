@@ -62,7 +62,6 @@ public class SearchPageModel
 	    SearchPageProduct product = new SearchPageProduct(element);
 	    productsMap.put(product.name, product);
 	}
-
     }
 
     public void selectColor(String color)
