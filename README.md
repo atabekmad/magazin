@@ -8,7 +8,7 @@ Selenium tests for online shop website
 * **org.mag.tests** - Here are the actual test files. 
 
 ## Prerequisites
-* [Java 7 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Java 7 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 * [Maven] (https://maven.apache.org/download.cgi) 
 
 ## Quickstart
