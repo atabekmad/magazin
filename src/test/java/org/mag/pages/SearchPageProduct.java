@@ -14,12 +14,12 @@ import static org.mag.pages.PageUtils.*;
 
 public class SearchPageProduct
 {
-    String name;
-    String color;
-    Date date;
-    Boolean inStock;
-    float price;
-    WebElement orderButton;
+    public String name;
+    public String color;
+    public Date date;
+    public Boolean inStock;
+    public float price;
+    public WebElement orderButton;
 
     public SearchPageProduct(WebElement element)
     {

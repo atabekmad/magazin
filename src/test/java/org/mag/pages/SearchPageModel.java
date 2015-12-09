@@ -12,17 +12,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import static org.mag.pages.PageUtils.*;
 import org.mag.pages.SearchPageProduct;
+import static org.mag.pages.PageUtils.*;
 
 
 public class SearchPageModel 
 {
     private String url = "http://testmeagain.github.io/AngularBootstrapExample/#/login";
     private Select colorOptions;
+    private List<String> orderedProducts;
     private List<WebElement> productBlockContainers;
     private Map<String, SearchPageProduct> productsMap;
-    private List<String> orderedProducts;
 
     @FindBy(name="colors")
     public WebElement colorDropDown;
@@ -39,19 +39,21 @@ public class SearchPageModel
 	registerAccount(email,password);
 	loginWithAccount(email,password);
 	PageFactory.initElements(driver,this);
+
 	try {    
-	    // Instead of sleep we could wait explicitly for particular element but
+	    // Instead of sleep we could wait explicitly for particular element to appear but
 	    // products on page may vary (html) and we don't know what exact element to wait for 
 	    TimeUnit.MILLISECONDS.sleep(500);  
 	} catch(InterruptedException e) {
 	    e.toString();
 	}
+
 	this.colorOptions = new Select(colorDropDown);
-	this.setProducts();
+	this.updateProductsMap();
 	this.orderedProducts = new ArrayList<String>();
     }
 
-    public void setProducts()
+    public void updateProductsMap()
     {
 	this.productBlockContainers = driver.findElements(By.cssSelector("div.media-body.container"));
 	productsMap= new HashMap<String, SearchPageProduct>();
@@ -85,7 +87,7 @@ public class SearchPageModel
 	}
 
 	int after=0;
-	this.setProducts();
+	this.updateProductsMap();
 	for (Map.Entry<String, SearchPageProduct> entry : productsMap.entrySet()) {
 	    if (entry.getValue().color == color) {
 		    after++;
