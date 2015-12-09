@@ -1,6 +1,12 @@
 # Magazin
 Selenium tests for online shop website
 
+## Contents
+
+* **org.mag.pages** - Webpage object models. Website which is being tested here has 3 pages in total. So we have 3 page models defined.
+
+* **org.mag.tests** - Here we have actual test files. 
+
 ## Prerequisites
 * [Java 7 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Maven] (https://maven.apache.org/download.cgi) 
