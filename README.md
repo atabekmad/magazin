@@ -1,5 +1,5 @@
 # Magazin
-Selenium tests for online shop website
+Selenium junit tests for online shop website
 
 ## Contents
 
