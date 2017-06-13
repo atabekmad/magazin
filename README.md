@@ -9,7 +9,7 @@ Selenium junit tests for online shop website
 
 ## Prerequisites
 * [Java 7 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-* [Maven] (https://maven.apache.org/download.cgi) 
+* [Maven](https://maven.apache.org/download.cgi) 
 
 ## Quickstart
 
